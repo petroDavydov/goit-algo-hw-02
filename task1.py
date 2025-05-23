@@ -22,7 +22,7 @@ def process_request():
         print(f"Завершено обробляти заявку: {request_data}")
     else:
         print("Черга порожня, зачеайте...")
-        time.sleep(3)
+        time.sleep(1)
 
 #  Для запуску програми(use hint)
 while True:
